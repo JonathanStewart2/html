@@ -1,0 +1,31 @@
+﻿body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: lime
+}
+
+h2 {
+    text-align: center;
+    color: lime
+}
+
+h3 {
+    text-align: left;
+    padding-left: 40px;
+    color: lightgreen
+}
+
+p {
+    text-align: left;
+    padding-left: 20px;
+    color: lawngreen;
+}
+
+.CVdiv {
+    text-align: left;
+    padding-left: 10px;
+    color: forestgreen;
+}
