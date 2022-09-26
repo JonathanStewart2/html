@@ -24,8 +24,29 @@ p {
     color: lawngreen;
 }
 
+h4 {
+    color: red;
+    padding-left: 20px;
+}
+
+h6 {
+    color:lightgrey;
+}
+
 .CVdiv {
     text-align: left;
     padding-left: 10px;
     color: forestgreen;
+}
+
+.DEdiv{
+    color: lightgray;
+}
+
+.signupLegend {
+    color: greenyellow;
+}
+
+.genderLegend {
+    color: lightblue;
 }
