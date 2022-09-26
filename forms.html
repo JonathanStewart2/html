@@ -3,15 +3,59 @@
 <html>
     <head>
         <title>Forms</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" crossorigin="anonymous"
+              rel="stylesheet"  />
     </head>
     <body>
-        <!-- Forms can have a METHOD and an ACTION
-            METHOD - how we send information
-            ACTION - where to send the information -->
 
-        <!-- GET method sends form input to URL bar 
-            does this with a name:value pair 
-            used like a hyperlink -->
+        <nav class="navbar">
+            <a href="index.html" class="navbar-brand">Home</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="forms.html" class="nav-link">Forms</a>
+                </li>
+                <li class="nav-item">
+                    <a href="e6-10html.html" class="nav-link">Exercise 6-10</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tables.html" class="nav-link">Tables</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <form method="post" action="index.html">
+            <h1>Sign up Form</h1>
+            <fieldset>
+                <legend>Your basic info: </legend>
+                <input type="text" id="name" placeholder="Your name" name="Name" />
+                <br />
+                <input type="text" id="email" placeholder="Email address" name="Email" />
+                <br />
+                <input type="text" id="password" placeholder="Password" name="Password" />
+                <br />
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <input type="radio" value="male" name="gender" />Male
+                    <input type="radio" value="female" name="gender" />Female
+                    <input type="radio" value="non-binary" name="gender" />Non-binary
+                </fieldset>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+        <br /><br /><br /><br /><br /><br />
+
+        <!-- Forms can have a METHOD and an ACTION
+    METHOD - how we send information
+    ACTION - where to send the information -->
+        <!-- GET method sends form input to URL bar
+    does this with a name:value pair
+    used like a hyperlink -->
         <form method="get" action="search">
             <h4>GET form</h4>
             <input type="text" name="q" />
@@ -23,7 +67,7 @@
             <h4>POST form</h4>
             <input name="sender" type="text" />
             <input name="content" type="text" />
-                   <button type=" = submit">SEND</button>
+            <button type=" = submit">SEND</button>
         </form>
 
         <!-- Forms can be created without methods or actions -->
@@ -55,6 +99,8 @@
             <a href="about.html">About</a> |
             <a href="forms.html">Forms</a> |
         </footer>
+
+        <script ssrc="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     </body>
 
 </html>
