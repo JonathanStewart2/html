@@ -6,3 +6,9 @@ h3 {
     color: navy;
     margin-left: 20px;
 }
+
+footer {
+    background-color: greenyellow;
+    margin-left: 20px;
+    text-emphasis-color: navy;
+}

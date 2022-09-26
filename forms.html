@@ -1,0 +1,52 @@
+﻿<!-- Forms -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <!-- Forms can have a METHOD and an ACTION
+            METHOD - how we send information
+            ACTION - where to send the information -->
+
+        <!-- GET method sends form input to URL bar 
+            does this with a name:value pair 
+            used like a hyperlink -->
+        <form method="get" action="search">
+            <h4>GET form</h4>
+            <input type="text" name="q" />
+            <button type="submit">SEARCH</button>
+        </form>
+
+        <!-- POST method sends data to an ACTION url -->
+        <form method="post" action="mailform.php">
+            <h4>POST form</h4>
+            <input name="sender" type="text" />
+            <input name="content" type="text" />
+                   <button type=" = submit">SEND</button>
+        </form>
+
+        <!-- Forms can be created without methods or actions -->
+        <form>
+            <h3>More inputs</h3>
+            <input type="checkbox" name="Box 1" value="1" />1
+            <input type="checkbox" name="Box 2" value="2" />2
+
+            <input type="radio" name="mc" value="A" />A
+            <input type="radio" name="mc" value="B" />B
+            <input type="radio" name="mc" value="C" />C
+        </form>
+
+
+
+        <br />
+        <footer>
+            <a href="index.html">Home</a> |
+            <a href="tables.html">Tables</a> |
+            <a href="./e6-10html.html">Exercises</a> |
+            <a href="about.html">About</a> |
+            <a href="forms.html">Forms</a> |
+        </footer>
+    </body>
+
+</html>
